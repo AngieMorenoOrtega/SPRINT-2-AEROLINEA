@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "luxon": "^3.3.0",
+    "sass": "^1.62.1",
     "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
 }
