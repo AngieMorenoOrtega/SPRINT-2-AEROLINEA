@@ -11,16 +11,16 @@ function Footer() {
   const iconos = [AiFillCar,GiHabitatDome,BsFillPeopleFill,BiHotel, RiMessage3Fill];
 
   return (
-    <div className="card">
-      <p>Servicios Disponibles</p>
+    <div className='all' >
+      <h5>Servicios Disponibles</h5>
       <section>
-        <div className="iconos">
+        <div className="card-container">
           {iconos.map((Icono, index) => (
-            <div key={index} >
-              <figure className="element">
-                <Icono />
+            <div key={index}className="card" >
+              <figure className="icono">
+                <Icono  className="mi-icono"/>
               </figure>
-              <h5 className="card-title">{array[index].nombre}</h5>
+              <p className="card-title">{array[index].nombre}</p>
               <p className="card-text">{array[index].mensaje}</p>
             </div>
           ))}
